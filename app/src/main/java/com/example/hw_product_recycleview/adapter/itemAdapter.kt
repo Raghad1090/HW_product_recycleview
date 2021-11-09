@@ -13,7 +13,7 @@ import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hw_product_recycleview.R
-import com.example.hw_product_recycleview.first_activity
+//import com.example.hw_product_recycleview.first_activity
 import com.example.hw_product_recycleview.model.products
 import com.google.android.material.transition.Hold
 
@@ -60,9 +60,9 @@ class itemAdapter(
         holder.buybutton.setOnClickListener{
 
             if(item.StringResourceId3 > 0){
-                val intent = Intent(context, first_activity ::class.java)
-                intent.putExtra("product" , item.StringResourceId)
-                it.context.startActivity(intent)
+//                val intent = Intent(context, first_activity ::class.java)
+//                intent.putExtra("product" , item.StringResourceId)
+//                it.context.startActivity(intent)
 
             } else
 
