@@ -5,7 +5,7 @@ The Home Work has one part to be delievered before Sunday 9AM:
 
 ----
 ## Part I
-#### Create new application that display a list of product. Every	element has a productImage, productName, productPrice, isVip and quantityNumber.
+#### Create new application that display a list of product. Ever element has a productImage, productName, productPrice, isVip and quantityNumber.
 #### If the isVip is true then	display the star image else hide it. If the user click on the button then check if the quantityNumber more then 0 open new activity and display the product’s name else display a toast with “the product is not available right now”
 <br />
 <br />

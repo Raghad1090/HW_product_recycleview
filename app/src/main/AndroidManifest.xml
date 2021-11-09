@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HW_product_recycleview">
         <activity
+            android:name=".first_activity"
+            android:exported="true"
+            android:label="@string/title_activity_first"
+            android:theme="@style/Theme.HW_product_recycleview.NoActionBar" />
+        <activity
+            android:name=".data.firstActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
